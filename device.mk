@@ -69,7 +69,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GCamGo
 
 # Device Settings
 PRODUCT_PACKAGES += \
