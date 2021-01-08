@@ -16,6 +16,11 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Sakura build flags
+SAKURA_OFFICIAL := true
+SAKURA_MAINTAINER := Shivam(Dronacharya)
+SAKURA_GAPPS := true
+
 #Gapps & Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
