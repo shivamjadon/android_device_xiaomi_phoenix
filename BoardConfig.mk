@@ -98,7 +98,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := phoenix_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_SOURCE := kernel/xiaomi/phoenix
-  TARGET_KERNEL_CLANG_VERSION := proton
+ # TARGET_KERNEL_CLANG_VERSION := proton
 endif
 
 # Platform
@@ -168,3 +168,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # Inherit from the proprietary version
 -include vendor/xiaomi/phoenix/BoardConfigVendor.mk
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
