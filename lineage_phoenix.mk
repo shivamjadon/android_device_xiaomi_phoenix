@@ -18,8 +18,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Sakura build flags
 SAKURA_OFFICIAL := true
-SAKURA_MAINTAINER := Shivam(Dronacharya)
-SAKURA_GAPPS := true
+SAKURA_MAINTAINER := Shivam Jadon
+SAKURA_BUILD_TYPE := gapps
+SAKURA_OPLAUNCHER := true
 
 #Gapps & Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
